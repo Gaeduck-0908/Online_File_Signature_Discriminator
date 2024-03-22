@@ -1,0 +1,11 @@
+{
+    "PNG": {
+      "header": "89504e47",
+      "footer": "49454e44ae426082"
+    },
+    "JPEG": {
+      "header": "ffd8ffe0",
+      "footer": "ffd9"
+    }
+  }
+  

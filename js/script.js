@@ -6,7 +6,7 @@ function checkFileSignature() {
     const fileInput = document.getElementById('customFile');
     const file = fileInput.files[0];
     if (!file) {
-      alert('파일을 선택해주세요.');
+      alert('Please select a file.');
       return;
     }
   
@@ -21,7 +21,7 @@ function checkFileSignature() {
           const headerMatch = hexContent.startsWith(sig.header.toUpperCase());
           const footerMatch = sig.footer ? hexContent.endsWith(sig.footer.toUpperCase()) : true;
           if (headerMatch && footerMatch) {
-            document.getElementById('resultMessage').textContent = `파일 타입: ${ext}`;
+            document.getElementById('resultMessage').textContent = `File Type: ${ext}`;
             document.getElementById('resultMessage').style.display = 'block';
             resultFound = true;
             break;
@@ -29,11 +29,10 @@ function checkFileSignature() {
         }
   
         if (!resultFound) {
-          document.getElementById('resultMessage').textContent = "알 수 없는 파일 타입";
+          document.getElementById('resultMessage').textContent = "Unknown file type";
           document.getElementById('resultMessage').style.display = 'block';
         }
   
-        // 파일 내용을 라인별로 출력하는 부분
         const hexLines = getHexLines(Array.from(new Uint8Array(fileContent)));
         document.getElementById('fileContent').textContent = hexLines;
         document.getElementById('fileContent').style.display = 'block';
@@ -56,6 +55,6 @@ function checkFileSignature() {
   
 function showResultMessage(content) {
     const resultMessage = document.getElementById('resultMessage');
-    resultMessage.textContent = content; // 내용 설정
-    resultMessage.style.display = 'block'; // 보여주기
+    resultMessage.textContent = content;
+    resultMessage.style.display = 'block';
 }

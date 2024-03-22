@@ -94,5 +94,65 @@
   "EPUB": {
     "header": "504B0304",
     "footer": ""
+  },
+  "OGG": {
+    "header": "4F676753",
+    "footer": ""
+  },
+  "RealMedia": {
+    "header": "2E524D46",
+    "footer": ""
+  },
+  "QuickTime": {
+    "header": "00000014667479707174",
+    "footer": ""
+  },
+  "ASF": {
+    "header": "3026B2758E66CF11",
+    "footer": ""
+  },
+  "AIFF": {
+    "header": "464F524D",
+    "footer": ""
+  },
+  "OpenType Font": {
+    "header": "4F54544F",
+    "footer": ""
+  },
+  "PostScript": {
+    "header": "25215053",
+    "footer": ""
+  },
+  "EPS": {
+    "header": "25215053",
+    "footer": ""
+  },
+  "TrueType Font": {
+    "header": "00010000",
+    "footer": ""
+  },
+  "Mach-O Binary (32-bit)": {
+    "header": "FEEDFACE",
+    "footer": ""
+  },
+  "Mach-O Binary (64-bit)": {
+    "header": "FEEDFACF",
+    "footer": ""
+  },
+  "Unix Archive": {
+    "header": "213C617263683E",
+    "footer": ""
+  },
+  "DjVu": {
+    "header": "41542654464F524D",
+    "footer": ""
+  },
+  "PCAP (Network Capture)": {
+    "header": "D4C3B2A1",
+    "footer": ""
+  },
+  "PCAPNG (Next Generation Network Capture)": {
+    "header": "0A0D0D0A",
+    "footer": ""
   }
 }

@@ -1,11 +1,54 @@
 {
-    "PNG": {
-      "header": "89504e47",
-      "footer": "49454e44ae426082"
-    },
-    "JPEG": {
-      "header": "ffd8ffe0",
-      "footer": "ffd9"
-    }
+  "PNG": {
+    "header": "89504E47",
+    "footer": "49454E44AE426082"
+  },
+  "JPEG": {
+    "header": "FFD8FFE0",
+    "footer": "FFD9"
+  },
+  "GIF": {
+    "header": "47494638",
+    "footer": ""
+  },
+  "PDF": {
+    "header": "25504446",
+    "footer": ""
+  },
+  "ZIP": {
+    "header": "504B0304",
+    "footer": ""
+  },
+  "RAR": {
+    "header": "52617221",
+    "footer": ""
+  },
+  "7Z": {
+    "header": "377ABCAF271C",
+    "footer": ""
+  },
+  "MP3": {
+    "header": "FFFB",
+    "footer": ""
+  },
+  "WAV": {
+    "header": "52494646",
+    "footer": ""
+  },
+  "AVI": {
+    "header": "52494646",
+    "footer": ""
+  },
+  "MP4": {
+    "header": "0000001866747970",
+    "footer": ""
+  },
+  "BMP": {
+    "header": "424D",
+    "footer": ""
+  },
+  "TIFF": {
+    "header": "49492A00",
+    "footer": ""
   }
-  
+}

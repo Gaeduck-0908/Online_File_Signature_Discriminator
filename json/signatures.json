@@ -50,5 +50,49 @@
   "TIFF": {
     "header": "49492A00",
     "footer": ""
+  },
+  "EXE": {
+    "header": "4D5A",
+    "footer": ""
+  },
+  "ISO": {
+    "header": "4344303031",
+    "footer": ""
+  },
+  "FLV": {
+    "header": "464C5601",
+    "footer": ""
+  },
+  "MIDI": {
+    "header": "4D546864",
+    "footer": ""
+  },
+  "MKV": {
+    "header": "1A45DFA3",
+    "footer": ""
+  },
+  "PSD": {
+    "header": "38425053",
+    "footer": ""
+  },
+  "SQLite Database": {
+    "header": "53514C69746520666F726D6174203300",
+    "footer": ""
+  },
+  "TAR": {
+    "header": "7573746172",
+    "footer": ""
+  },
+  "WebM": {
+    "header": "1A45DFA3",
+    "footer": ""
+  },
+  "XML": {
+    "header": "3C3F786D6C20",
+    "footer": ""
+  },
+  "EPUB": {
+    "header": "504B0304",
+    "footer": ""
   }
 }

@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>파일 시그니처 판별기</title>
+  <title>Online File Signature Discriminator</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -10,13 +10,13 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1 class="mt-5">파일 시그니처 판별기</h1>
+        <h1 class="mt-5">Online File Signature Discriminator</h1>
         <form id="uploadForm" enctype="multipart/form-data" class="my-3">
           <div class="custom-file">
             <input type="file" class="custom-file-input" id="customFile">
-            <label class="custom-file-label" for="customFile">파일 선택...</label>
+            <label class="custom-file-label" for="customFile">File Select...</label>
           </div>
-          <button type="button" class="btn btn-primary mt-3" onclick="checkFileSignature()">업로드</button>
+          <button type="button" class="btn btn-primary mt-3" onclick="checkFileSignature()">Upload</button>
         </form>
         <div id="resultMessage" class="alert alert-info" role="alert" style="display: none;"></div>
         <div id="fileContent" class="mt-3" style="white-space: pre-wrap; word-wrap: break-word; font-family: monospace;"></div>

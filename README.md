@@ -5,3 +5,11 @@
 
 # Contribution
 ```With regard to json files, adding signatures is always welcome```
+
+```The Json form is as follows```
+```json
+    "FileType": {
+      "header": "Header Signature",
+      "footer": "Footer Signature"
+    }
+```
